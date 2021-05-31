@@ -1,2 +1,2 @@
-# CS-Notes
-计算机类专业部分专业课的（非常不详细、目标仅仅是不挂科的）笔记
+# SE-Notes
+Software Engneering部分专业课笔记存档
