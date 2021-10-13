@@ -49,7 +49,7 @@ risk exposure：probility * loss
 - 对一个preocess要不断分解：activity，action，task
 - 为了更好地理解sfw pro——分解为两个维度：pro（制造）+um（保护）
 
-
+提问过：
 
 1. comunication：requirement modeling
 
@@ -71,13 +71,13 @@ risk exposure：probility * loss
 
 ## 普适性活动Umbrella activity***
 
-导致changing的三个原因：
+导致changing的三个原因：提问过
 
-1. correct
-2. 适应性修改：法律
-3. enhance：增加性能
+1. correct纠错
+2. 适应性修改：法律 adapt
+3. enhance：增加性能，功能增强
 
-
+SQA：查询接口监控
 
 **测量Measurement：**
 
@@ -142,13 +142,13 @@ component design：类的设计，有什么类，什么方法，继承关系—�
 
 # 2.4 软件开发神话
 
-管理myth
+management myth
 
 1. 即使有软件工程这个开发框架也可能会遇到很多问题
 
 
 
-客户 myth
+customer myth
 
 1. 需求不能随意更改，敏捷开发中需要等到下一个迭代周期才可以更改需求（stories）
 
@@ -167,5 +167,7 @@ Practitioner’s myths
 需求管理工具：
 
 测试工具：
+
+outsource
 
 # 2.5 如何开始
