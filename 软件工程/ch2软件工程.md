@@ -36,11 +36,11 @@ milestone：两个activity的交付点，前一阶段的action已经检测无误
 
 ## 普适性活动
 
-risk exposure：probility * loss 
+risk exposure= loss* possibility
 
-
-
-
+1. 识别风险
+2. 计算risk exposure = loss* possibility（概率和损失的乘积）并排序
+3. 根据第二步指定的策略实施，动态跟踪风险
 
 
 
