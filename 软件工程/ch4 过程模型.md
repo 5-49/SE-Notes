@@ -2,8 +2,6 @@
 
 迭代程度：迭代层次（回到这层，上一层）
 
-
-
 # 瀑布模型
 
 ## 特点
@@ -54,7 +52,7 @@ systest
 
 requirements model
 
-1.  得到结果是RSpecification（需求归约，为主），有文字描述+use case图
+1.  需求调研：得到结果是RSpecification（需求归约，为主），有文字描述+use case图
 2. requirement analysis modeling：得到结果是RASpecification（sp第三阶段，通过activity图来抽象系统的流程）
 
 这个V不完整，上面的Rm包括两部分
@@ -64,6 +62,8 @@ AT：验收测试
 
 
 # 增量过程模型
+
+incremental
 
 特点：
 
@@ -78,7 +78,7 @@ AT：验收测试
 2. 先占领市场
 3. 技术原因（新技术还没搞出来，所以先发布没这个技术的部分）
 
-
+![image-20211025101732716](ch4 过程模型.assets/image-20211025101732716.png)
 
 # 演化过程模型
 
@@ -115,7 +115,7 @@ fuzzy：模糊的
 spiral model特点：
 
 1. 适合大项目
-2. 风险比较高的项目
+2. 风险比较高的项目：每一圈跟踪风险
 3. 需求经常变更的项目
 4. 要求迭代
 

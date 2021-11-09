@@ -24,7 +24,7 @@ task：
 
 
 
-milestone：两个activity的交付点，前一阶段的action已经检测无误，交付到下一阶段
+milestone：两个activity的交付点，前一阶段的action已经检测无误，交付到下一阶段。本阶段的产品已经review了。
 
 ## 过程框架
 
