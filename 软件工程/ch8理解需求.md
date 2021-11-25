@@ -41,11 +41,17 @@ use case diagram, activity diagram(function model, depicts the business logic fo
 
 
 
+
+
 ## 5、specification
 
 
 
+
+
 ## 6、validation 
+
+附件：正规技术评审过程
 
 
 

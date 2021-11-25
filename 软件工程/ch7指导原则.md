@@ -187,7 +187,7 @@ and the behavioral domain. Design，行为建模，状态图
 
 ③ Principle 3. Design of data is as important as design of processing functions. 数据设计也很重要：数据库，数据字典，数据结构，数据仓库
 
->数据字典：某个接口输入数据如何对应（送给）后台（类的某个属性/字符串）。也是界面设计的重要基础。
+>数据字典：数据的组成方式。例如某个接口输入数据如何对应（送给）后台（类的某个属性/字符串）。也是界面设计的重要基础。
 
 ④ Principle 4. Interfaces (both internal and external) must be designed with care. 接口设计
 
