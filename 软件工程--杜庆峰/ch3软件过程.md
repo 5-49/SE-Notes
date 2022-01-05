@@ -223,9 +223,7 @@ tailor：delete/edit/modify
 
 LoC：lines of code 最早的项目规模评估依据，现在不用了——因为现在很多复用和继承。现在用Function Point / Use Case Point（FP/UCP）
 
-
-
-## Optimizing
+## CMM5：Optimizing
 
 1. Process Changing  Management：
 2. Technology CM：例如开发用sql server，后来发现不行要换

@@ -1,5 +1,7 @@
 # Requirement Engineering
 
+主要说每个活动做什么，要搞清楚。
+
 ## 1、启动Inception:
 
 明确项目要解决的问题，构建团队和协调机制
@@ -23,13 +25,11 @@ establish business goals，
 
 
 
+## 3、Elaboration细化
 
+开始做Requirement Analysis Modeling
 
-## 3、Elaboration
-
-开始做ReAnaMed
-
-use case diagram, activity diagram(function model, depicts the business logic for each use case ).
+use case diagram, activity diagram ( function model, depicts the business logic for each use case ).
 
 类建模：对于离散的对象研究归属聚合继承等关系。
 
@@ -37,25 +37,25 @@ use case diagram, activity diagram(function model, depicts the business logic fo
 
 
 
-## 4、negotiation
+## 4、Negotiation协商
 
 
 
 
 
-## 5、specification
+## 5、Specification明确
 
 
 
 
 
-## 6、validation 
+## 6、Validation校验
 
 附件：正规技术评审过程
 
 
 
-## 7、management
+## 7、Management管理
 
 
 

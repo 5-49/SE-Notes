@@ -50,12 +50,14 @@ systest
 
 待整理路由
 
+这个V不完整，上面的Rm包括两部分 ：
+
 requirements model
 
-1.  需求调研：得到结果是RSpecification（需求归约，为主），有文字描述+use case图
-2. requirement analysis modeling：得到结果是RASpecification（sp第三阶段，通过activity图来抽象系统的流程）
+1.  Requirement elicitation需求调研：得到结果是Requirement Specification（需求归约，为主），有文字描述+use case图
+2.  requirement analysis modeling：得到结果是Requirement Analysis Specification（sp第三阶段，通过activity图来抽象系统的流程）
 
-这个V不完整，上面的Rm包括两部分
+
 
 AT：验收测试
 
@@ -72,7 +74,7 @@ incremental
 3. 每个增量之间可能存在stagger（交错）和parallel
 4. 每一次发布都是完全能运行的版本，第一次是核心版本（core product），后续是增强
 
-为什么用？
+为什么用
 
 1. 瀑布开发时间太长了
 2. 先占领市场
@@ -94,7 +96,7 @@ evolutionary：是迭代演化的
 
 ## 原型模型
 
-prototype medol：( phase pattern ) 帮助搞清需求，过程模型的一种，是一个迭代的模型。做需求，给大家看，再改，再迭代。
+prototype medol：( phase pattern ) <u>**帮助搞清需求**</u>，过程模型的一种，是一个迭代的模型。做需求，给大家看，再改，再迭代。
 
 使用情况：需求不清楚/需求在特定环境（特定的操作系统、数据库、网络）运行不确定是否合适
 

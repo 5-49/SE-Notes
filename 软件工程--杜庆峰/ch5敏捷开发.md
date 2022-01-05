@@ -19,39 +19,35 @@
 
 # XP极限编程extreme programming
 
+重要！:arrow_down_small:
+
 ![image-20211025105239448](ch5敏捷开发.assets/image-20211025105239448.png)
 
 适合比较大，周期长，风险高的项目
 
 ## planning
 
-用户故事：这里story就是requirement，故事的单位unit是use case；
+用户故事：这里story就是requirement，描述将要开发的软件所需要的输出、特性以及功能。故事的单位unit是use case。
 
-​	value：给故事划分优先级priority，选优先级高的在本次迭代实现
+权值/优先级value：给故事划分优先级priority，选优先级高的在本次迭代实现
 
-​	acceptance test：验收测试，主要看客户需求，需求归约。可以做测试用例的设	计（虽然还没code，但需求明确就可以做）
+Acceptance test：验收测试，主要看客户需求，需求归约。可以做测试用例的设计（虽然还没code，但需求明确就可以做）
 
-iteration plan：迭代计划关注两个方面——duration + mini-milestone
+Iteration plan：迭代计划关注两个方面——duration + mini-milestone
 
 ## design
 
-**CRC**：class responsibility colabelraltor（协调者）‘
-
-提取业务类：
-
-抽象子系统：
-
-类的方法和属性统称responsibility（用户的姓名生日）
-
-
-
-类和其他类有交互叫：colaberator
-
-1. 抽象子系统，抽象类负责交互（接口类）
-
-例如我需要知道你的成绩，需要getGPA，那么我们俩就有协作关系。
+> **CRC (Class-Responsibility-Collaborator) **卡建模是一种简单且有效的面向对象的分析技术。XP中用于确定与当前软件增量相关的类。
+>
+> 它由三部分组成： 
+>
+> 1. **类 (Class) ：**一个类代表许多类似的对象。而类名在CRC卡的顶部。 
+> 2. **职责 (Responsibility)** ：职责是类的方法和属性 （用户的姓名生日）。类需要知道或做的任何事物。这些职责是类自身所知的知识，或类在执行时所知的知识。
+> 3. **协作 (Collaborator) ：**协作是类和其他类有交互。指为获取消息，或协助执行活动的其他类。在特定情形下，与指定的类按一个设想共同完成一个(或许多)步骤。例如我需要知道你的成绩，需要getGPA，那么我们俩就有协作关系。
 
 
+
+提取业务类====》抽象子系统====》确定调用关系（抽象类负责交互（接口类））
 
 九个类，三个子系统，互相之间可能有调用。
 
@@ -79,11 +75,11 @@ Spike：某个算法特别复杂，应该拿出来做特定环境下的验证
 
 团队不是直接开始code，而是先开发包含所有故事的单元测试
 
-refactoring：自反，为了代码的质量
+refactoring重构，自反，为了代码的质量
 
-pair pro：结对编程，尤其是关键性的复用性高的项目。两个人一起写，一起查，一起review
+pair programming结对编程，尤其是关键性的复用性高的项目。两个人一起写，一起查，一起review
 
-continuous integration：集成测试，结对编程之后需要和团队其他人的集成起来
+continuous integration集成测试，结对编程之后需要和团队其他人的集成起来
 
 smoking testing：功能基本可以实现，最初来源于汽车行业（保证发动机冒烟）
 
